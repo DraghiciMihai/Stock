@@ -7,6 +7,6 @@ public class TestStock {
         Stock stoc = new Stock("$", "dolar");
         stoc.setClosingPrice(85);
         stoc.setCurrentPrice(80);
-        System.out.println(stoc.getChangePercent() + "%");
+        System.out.printf("%.2f %%",stoc.getChangePercent());
     }
 }
