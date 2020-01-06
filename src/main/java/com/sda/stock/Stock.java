@@ -28,6 +28,6 @@ public class Stock {
     }
 
     public double getChangePercent(){
-        return (this.currentPrice-this.closingPrice)/this.closingPrice;
+        return ((this.currentPrice-this.closingPrice)/this.closingPrice)*100;
     }
 }
